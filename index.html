@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#10049 Body-Mass-Index</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    
+    <!--fonts.google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Der Body-Mass-Index (BMI)</h1>
+        <p>BMI steht für "body-mass-index" und ist eine gebräuchliche Formel zur Gewichtsberechnung.<br>
+
+            Der BMI errechnet sich durch folgende Formel:<br>
+            
+            BMI = (Gewicht in kg) / (Höhe in Meter) / (Höhe in Meter).</p>
+    </header>
+    <main>           
+            <div id="container">
+                <h2>Bodymassindex berechnen:</h2>
+                <input type="number" size="3" name="kilogramm" placeholder="Gewicht in kg" id="kgOutput" />
+
+                <input type="number" size="3" placeholder="Höhe in Meter" name="zahlzwei" id="heightOutput" />  
+
+                <button onclick="calculate()">berechnen</button>
+           
+                <p id="ergebnis"></p>
+       </div>     
+        
+    </main>
+    <footer>
+        <img src="img/politronlogo100.png" alt="logo">
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+</html>
